@@ -1,0 +1,42 @@
+.headerwrapper{
+    display: flex;
+
+    justify-content: center;
+    padding-top: 5em;
+    
+    
+    
+}
+.header{
+    display: flex;
+ box-shadow: var(--shadow);
+    width: 68%;
+    height: 320px;
+    
+    border-radius: 30px;
+    overflow: hidden;
+
+    color:white;
+
+}
+
+
+@media (max-width: 1400px) {
+    .header{
+        width: 85%;
+        flex-direction: column;
+        height: auto;
+        border-radius: 0px;
+        box-shadow: none;
+        overflow: visible;
+    }
+
+    
+  }
+
+ 
+  @media (max-width: 750px) {
+    .header{
+        width: 90%;
+    }
+  }

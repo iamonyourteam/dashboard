@@ -1,0 +1,104 @@
+@import url(./App.css);
+
+.nav{
+   background-color: var(--secound-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+  
+    padding:3em;
+}
+
+
+/* left */
+.logo{
+display: flex;
+align-items: center;
+margin-left: 5%;
+}
+
+img{
+    
+    height: 50px;
+}
+.logotxt{
+    
+    color: orange;
+    font-weight: bold;
+    font-size:3em;
+    padding-left: .5em;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 300;
+
+}
+
+
+/* Middle */
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   max-width: 700px;
+    width: 40%;
+    
+}
+.link{
+    display: flex;
+    align-self: center;
+    color:var(--text-primary)
+    
+}
+.link:hover, .link:focus{
+
+    color:var(--text-secound);
+    cursor: pointer;
+}
+.link,.text {
+    margin-left: 15px;
+    font-size: 1.1em;
+    
+}
+
+
+/* Right */
+.name{
+    color:var(--text-primary);
+    margin-right: 5%;
+    font-size: 1.1em;
+}
+
+
+@media (max-width: 1400px) {
+.nav{
+    background-color: var(--secound-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    
+    }
+
+
+/* left */
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: 0;
+    
+    }
+
+/* Middle */
+.links{
+    display: none;
+
+    
+}
+  /* Right */
+.name{
+ display: none;
+}  
+}
+
+
