@@ -36,6 +36,10 @@
 
  
   @media (max-width: 750px) {
+    .headerwrapper{
+        padding-top:2em
+    }
+    
     .header{
         width: 90%;
     }

@@ -60,8 +60,10 @@
 
   @media (max-width: 750px) {
     .headerstat{
-        padding:5%;
-        margin-bottom: 7%;
+        padding:7%;
+        padding-top:10%;
+        padding-bottom:10%;
+        margin-bottom: 6%;
         height: 25%;
     }
     .title{
@@ -69,9 +71,13 @@
         
     }
     .value{
+        font-size: 3em;
         width: 50%;
-  
+
         text-align: right;
+    }
+    .info{
+display: none;
     }
 
   }
