@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.2ebbed71.css",
+    "main.css": "/dashboard/static/css/main.15ea5f61.css",
     "main.js": "/dashboard/static/js/main.23e660e8.js",
     "static/media/madeuplogo.png": "/dashboard/static/media/madeuplogo.32492c27bd958cfb5141.png",
     "static/media/Line Chart.svg": "/dashboard/static/media/Line Chart.815d5c984399ac2adc557ef7ecf155fb.svg",
@@ -8,11 +8,11 @@
     "static/media/Bar Chart 2.svg": "/dashboard/static/media/Bar Chart 2.3ffb5a35aea96623c51e1267e23c1695.svg",
     "static/media/Bar Chart 1.svg": "/dashboard/static/media/Bar Chart 1.8e7facc444feb562c6b1ba42d7ea3b6d.svg",
     "index.html": "/dashboard/index.html",
-    "main.2ebbed71.css.map": "/dashboard/static/css/main.2ebbed71.css.map",
+    "main.15ea5f61.css.map": "/dashboard/static/css/main.15ea5f61.css.map",
     "main.23e660e8.js.map": "/dashboard/static/js/main.23e660e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ebbed71.css",
+    "static/css/main.15ea5f61.css",
     "static/js/main.23e660e8.js"
   ]
 }
